@@ -1,4 +1,11 @@
-Welcome to my personal portfolio!  
-I’m a high school STEM student passionate about creating projects, leading initiatives, and using STEM to solve community challenges.
+# bitaniya-portfolio
 
-Portfolio live at: [https://jwnyyss.github.io/bitaniya-portfolio/](https://jwnyyss.github.io/bitaniya-portfolio/)
+Personal portfolio website for **Bitaniya Amare** — High school STEM student.
+
+Live: `https://jwnyyss.github.io/bitaniya-portfolio/`
+
+## How to run locally
+1. Clone repo
+```bash
+git clone https://github.com/jwnyyss/bitaniya-portfolio.git
+cd bitaniya-portfolio
