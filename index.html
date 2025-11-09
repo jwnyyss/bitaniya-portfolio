@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bitaniya Amare — STEM Student & Creator</title>
+  <meta name="description" content="Bitaniya Amare — High school STEM student creating projects, leading initiatives, and using STEM to solve community challenges."/>
+  <meta name="theme-color" content="#BFA2D9" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bitaniya Amare — STEM Student & Creator" />
+  <meta property="og:description" content="I build small, useful projects, lead initiatives, and use STEM for community impact." />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body class="light" data-reduced-motion="false">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="site-title">Bitaniya Amare</h1>
+        <p class="site-sub">High School STEM Student • Community-focused</p>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button id="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-controls">
+        <button id="theme-toggle" aria-pressed="false" aria-label="Toggle dark mode">🌙</button>
+        <label class="visually-hidden" for="reduce-motion">Reduce motion</label>
+        <input id="reduce-motion" type="checkbox" />
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero" aria-label="Hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <!-- avatar (SVG) + social -->
+          <div class="avatar" aria-hidden="true">
+            <!-- simple avatar svg placeholder -->
+            <svg width="220" height="220" viewBox="0 0 120 120" role="img" aria-label="Avatar placeholder">
+              <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#BFA2D9"/><stop offset="1" stop-color="#2EC4B6"/></linearGradient></defs>
+              <rect rx="20" width="120" height="120" fill="url(#g1)"></rect>
+              <g transform="translate(15,20)" fill="#fff" opacity="0.92">
+                <circle cx="30" cy="22" r="14"></circle>
+                <rect x="4" y="54" width="52" height="10" rx="5"></rect>
+              </g>
+            </svg>
+          </div>
+
+          <div class="socials hero-socials" aria-hidden="false">
+            <a href="https://linkedin.com/in/bitaniya-amare" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/jwnyyss" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://t.me/jwnyyss" target="_blank" rel="noopener">Telegram</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <p class="eyebrow">Hi — I’m</p>
+          <h2 class="hero-title">Bitaniya Amare</h2>
+          <p class="hero-tag">High School STEM Student • Passionate About Using STEM To Solve Community Challenges</p>
+          <p class="hero-lead">I build useful projects, lead student initiatives, and explore ways STEM supports communities. Currently: IKIGAI Cohort, EthioSTEMers, GreenPill Intern, and AlgoPy.</p>
+
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#projects">See Projects</a>
+            <a class="btn btn-outline" href="#contact">Contact</a>
+            <a class="btn btn-ghost" href="assets/Bitaniya-CV.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section" aria-label="About">
+      <div class="container">
+        <h3 class="section-title">About</h3>
+        <div class="about-grid">
+          <div class="about-text">
+            <p><strong>I’m Bitaniya Amare</strong> — a curious, action-oriented STEM student who loves applying programming, math, and design to real community problems. I lead clubs, mentor younger students, and build tools that help local projects run smoother.</p>
+            <p>Through Brighter Generation, BDU Math Camp, IKIGAI Cohort and EthioSTEMers, I’ve developed skills in teamwork, leadership, and practical problem solving. I enjoy Python, C++, GeoGebra, and low-fi UIs that solve daily needs.</p>
+          </div>
+
+          <aside class="about-badges" aria-label="Highlights">
+            <ul class="chips">
+              <li>STEM camps</li>
+              <li>Leadership</li>
+              <li>Club founder</li>
+              <li>Languages: Amharic, English</li>
+            </ul>
+
+            <div class="timeline" aria-hidden="false">
+              <h4>Timeline</h4>
+              <ol>
+                <li><time datetime="2024">2024</time> — Brighter Generation (Outreach)</li>
+                <li><time datetime="2025">2025</time> — BDU Math Camp</li>
+                <li><time datetime="2025">2025</time> — IKIGAI Cohort & EthioSTEMers</li>
+              </ol>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" aria-label="Projects">
+      <div class="container">
+        <h3 class="section-title">Projects</h3>
+
+        <div class="filter-row" role="toolbar" aria-label="Project filters">
+          <label>
+            <input type="radio" name="filter" value="all" checked> All
+          </label>
+          <label>
+            <input type="radio" name="filter" value="web"> Web
+          </label>
+          <label>
+            <input type="radio" name="filter" value="data"> Data
+          </label>
+          <label>
+            <input type="radio" name="filter" value="ai"> AI
+          </label>
+          <label>
+            <input type="radio" name="filter" value="community"> Community
+          </label>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project card 1 -->
+          <article class="card project" data-category="community data" tabindex="0" aria-labelledby="proj1-title">
+            <div class="card-media" role="img" aria-label="Pharmacy Management System thumbnail">
+              <img src="assets/pharmacy-thumb.jpg" alt="App screenshot — pharmacy management"/>
+            </div>
+            <div class="card-body">
+              <h4 id="proj1-title">Pharmacy Management System</h4>
+              <p class="card-desc">Python + Tkinter app to manage inventory, sales, and simple reporting for a local pharmacy.</p>
+              <p class="tags">Python · Tkinter · UI</p>
+              <div class="card-actions">
+                <button class="btn small" data-open="proj1-modal">Details</button>
+                <a class="text-link" href="https://github.com/jwnyyss/pharmacy-management" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project card 2 -->
+          <article class="card project" data-category="web community" tabindex="0" aria-labelledby="proj2-title">
+            <div class="card-media" role="img" aria-label="Student Schedule Manager thumbnail">
+              <img src="assets/schedule-thumb.jpg" alt="C++ program screenshot — student schedule manager"/>
+            </div>
+            <div class="card-body">
+              <h4 id="proj2-title">Student Schedule Manager</h4>
+              <p class="card-desc">C++ console app that automates student timetables and conflict checking for class scheduling.</p>
+              <p class="tags">C++ · Algorithms · CLI</p>
+              <div class="card-actions">
+                <button class="btn small" data-open="proj2-modal">Details</button>
+                <a class="text-link" href="https://github.com/jwnyyss/student-schedule-manager" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Project Modals -->
+      <div class="modal-backdrop" id="proj1-modal" data-modal>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="proj1-title" tabindex="-1">
+          <button class="modal-close" data-close aria-label="Close">×</button>
+          <h4 id="proj1-title-modal">Pharmacy Management System</h4>
+          <p><strong>Tech:</strong> Python · Tkinter · SQLite</p>
+          <p><strong>Summary:</strong> A simple desktop application for small pharmacy inventory and sales tracking. Includes search, low-stock alerts, and basic daily reports.</p>
+          <p><strong>Challenge:</strong> Designing an easy-to-use UI for non-technical users and keeping data consistent offline.</p>
+          <p><strong>Outcome:</strong> Deployed with a local pharmacy; reduced inventory errors and simplified daily reconciliation.</p>
+        </div>
+      </div>
+
+      <div class="modal-backdrop" id="proj2-modal" data-modal>
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="proj2-title" tabindex="-1">
+          <button class="modal-close" data-close aria-label="Close">×</button>
+          <h4 id="proj2-title-modal">Student Schedule Manager</h4>
+          <p><strong>Tech:</strong> C++ · STL · File I/O</p>
+          <p><strong>Summary:</strong> Console app that builds student schedules, checks conflicts, and outputs printable timetables.</p>
+          <p><strong>Challenge:</strong> Implementing efficient conflict detection with limited memory and simple UI.</p>
+          <p><strong>Outcome:</strong> Used in class scheduling demos and shared with classmates for planning.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section" aria-label="Experience">
+      <div class="container">
+        <h3 class="section-title">Experience & Activities</h3>
+        <ul class="experience-list">
+          <li>
+            <strong>Brighter Generation</strong> — Outreach lead (2024)
+            <ul><li>Organized STEM sessions in local schools; designed low-cost activities.</li></ul>
+          </li>
+          <li>
+            <strong>Senior Insights</strong> — Founder (2024)
+            <ul><li>Built a mentorship hub connecting seniors with younger students.</li></ul>
+          </li>
+          <li>
+            <strong>STEM4Her</strong> — Co-founder (2025)
+            <ul><li>Created resources to encourage girls to explore STEM disciplines.</li></ul>
+          </li>
+          <li>
+            <strong>AlgoPy</strong> — Participant (2025)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section" aria-label="Skills">
+      <div class="container">
+        <h3 class="section-title">Skills & Certificates</h3>
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-head"><span>Python</span><small>Advanced</small></div>
+            <div class="skill-bar"><span style="width:85%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>C++</span><small>Intermediate</small></div>
+            <div class="skill-bar"><span style="width:70%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>Problem Solving</span><small>Strong</small></div>
+            <div class="skill-bar"><span style="width:82%"></span></div>
+          </div>
+          <div class="skill">
+            <div class="skill-head"><span>GeoGebra</span><small>Working Knowledge</small></div>
+            <div class="skill-bar"><span style="width:65%"></span></div>
+          </div>
+        </div>
+
+        <div class="language-chips">
+          <strong>Languages:</strong>
+          <span class="chip">Amharic</span>
+          <span class="chip">English</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section" aria-label="Contact">
+      <div class="container">
+        <h3 class="section-title">Contact</h3>
+        <p>Let’s connect — I’m open to mentorship, collaboration, and tutoring.</p>
+
+        <form id="contact-form" action="https://formsubmit.co/bethanyamaresyoum@gmail.com" method="POST" class="contact-form" novalidate>
+          <!-- FormSubmit requires a hidden _captcha field to disable captcha if needed; leave as default -->
+          <input type="hidden" name="_subject" value="Portfolio message from website">
+          <input type="hidden" name="_template" value="table">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@domain.com" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Hi Bitaniya —" required></textarea>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <button class="btn btn-outline" type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#home">Home</a> · <a href="#projects">Projects</a> · <a href="#contact">Contact</a>
+      </nav>
+      <small>© <span id="year"></span> Bitaniya Amare · <a href="https://github.com/jwnyyss" target="_blank" rel="noopener">GitHub</a></small>
+    </div>
+  </footer>
+</body>
+</html>
